@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.nav{
+  background-color: #12a4d9;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  height: 45px;
+  margin-bottom: 50px;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-item{
+  border: 1px solid #eeeeee;
+  padding: 5px;
+  margin-right: 50px;
+}
+
+.alert{
+  height: 30px;
+  color: #d72631;
+}
+
+.form-search{
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.button-update, .button-cancel, .button-search{
+  background-color:#e2d810 ;
+}
+
+.button-delete{
+  background-color:#d72631;
+}
+
+.button-save{
+  background-color:#12a4d9 ;
+}
+.table-input{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+table
+{
+  width: 100%;
+}
+table, th, td
+{
+  border: solid 1px #DDD;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: center;
+}
+
+form{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.form-group{
+  display: flex;
+  margin-bottom: 5px;
+}
+.form-control-label{
+  width: 25%;
+}
+
+.form-button{
+  font-size: 16px;
+  background-color: #12a4d9;
+}
+
+.form-group-right{
+  display: flex;
+  margin-top: 20px;
+  justify-content: flex-end;
+  width: 90%;
+}
+input{
+  border: 1px solid #eeeeee;
+  width: 74%;
+  padding: 0 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+a:link {
+  color: #eeeeee;
+}
+
+a:visited {
+  color: #eeeeee;
+}
+
+a:hover {
+  color: #322e2f;
+}
+
+a:active {
+  color: #eeeeee;
+}
